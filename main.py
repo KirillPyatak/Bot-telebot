@@ -2,13 +2,13 @@ import telebot
 from telebot import types
 from Keyboard import *
 
-token = '5877590294:AAHP1lANVCByyY7HGXwvCEoXA3DH6YowYRg'
+token = 'Ваш токен'
 
 
 bot = telebot.TeleBot(token)
 
 # id Канала
-channel_id = '-1001939790265'
+channel_id = 'ваш id канала'
 
 # Обработчик команды /start
 @bot.message_handler(commands=['start'])
